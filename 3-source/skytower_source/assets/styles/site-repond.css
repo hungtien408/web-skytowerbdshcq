@@ -1,0 +1,362 @@
+﻿/*========================reponsite===============================================================================*/
+.desktop-showhide, .desktop-992 {
+    display: block;
+}
+
+.mobile-showhide, .ipadmo-992 {
+    display: none;
+}
+
+.menu-sroll {
+    -webkit-box-shadow: 0 3px 5px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 0 3px 5px #ccc; /* Firefox 3.5 - 3.6 */
+    box-shadow: 0 3px 5px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    position: fixed;
+    z-index: 9997;
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        padding: 0;
+    }
+
+    .main-content .container {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .logo {
+        top: 25px;
+        width: 160px;
+    }
+
+    #menu > li {
+        padding: 15px 10px;
+    }
+
+    .hotline-haeder {
+        background: none;
+        padding-left: 0;
+        margin-left: 4px;
+    }
+
+    .pic-main .item {
+        width: calc(30% - 4px);
+    }
+
+    .utilities-main .uti-main .item {
+        width: calc(30% - 4px);
+    }
+
+    .news-content .description.mCustomScrollbar.content {
+        height: 110px;
+    }
+
+    .overview-more {
+        margin-bottom: 10px;
+    }
+
+    .overview-box:nth-of-type(2n+1) .over-content {
+        padding: 5px 0 5px 15px;
+    }
+
+    .over-content > h1 {
+        padding: 0 0 15px;
+    }
+
+    .overview-box:nth-of-type(2n) .over-content {
+        padding: 5px 15px 5px 0;
+    }
+
+    .over-content .description.mCustomScrollbar.content {
+        height: 270px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+}
+
+@media (min-width: 993px) {
+}
+
+@media (max-width: 992px) {
+    .desktop-992 {
+        display: none;
+    }
+
+    .ipadmo-992 {
+        display: block;
+    }
+
+    .ov-param {
+        font-size: 50px;
+    }
+
+    .overview-default .description, .utilities-default .description, .register-main .description, .apartment-main .description, .location-main .description, .utilities-main .description {
+        width: 100%;
+    }
+
+    .pic-main .item {
+        width: calc(29% - 4px);
+    }
+
+    .contact-w {
+        padding: 3px 0;
+    }
+
+        .contact-w .contact-input {
+            width: 100%;
+        }
+
+    .contact-input .contact-area {
+        height: 100px;
+    }
+
+    .utilities-main .uti-main .item {
+        width: calc(29% - 4px);
+    }
+
+    .apart-main .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+
+    .news-content {
+        padding: 15px;
+    }
+
+    .news-name > a {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .news-content .description.mCustomScrollbar.content {
+        height: 90px;
+    }
+
+    .news-content .view-all {
+        margin: 20px 0 0;
+    }
+
+    .over-content > h1 {
+        font-size: 25px;
+        padding: 0 0 10px;
+    }
+
+    .view-more .view-title {
+        width: 50%;
+    }
+
+    .view-more span {
+        width: calc(50% - 4px);
+    }
+
+    .over-content .description.mCustomScrollbar.content {
+        height: 200px;
+    }
+
+    .overview-param .ov-param {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 769px) {
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 992px) {
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .desktop-showhide {
+        display: none !important;
+    }
+
+    .mobile-showhide {
+        display: block !important;
+    }
+
+    .overview-list li {
+        width: calc(33.3% - 4px);
+        margin-bottom: 20px;
+    }
+
+    .overview-list {
+        text-align: center;
+    }
+
+    .overview-default {
+        padding: 50px 0;
+    }
+
+    .title-main > h1 {
+        font-size: 30px;
+    }
+
+    .loca-text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .loca-img {
+        float: none;
+        width: 100%;
+    }
+
+    .utilities-default, .picture-default {
+        padding: 30px 0;
+    }
+
+    #sliderUtilities .owl-prev, #sliderUtilities .owl-next {
+        top: 65px;
+    }
+
+    .pic-main {
+        text-align: center;
+    }
+
+        .pic-main .item {
+            width: calc(45% - 4px);
+        }
+
+    .wrap-send {
+        width: 400px;
+        float: none;
+    }
+
+    .contact-text {
+        width: 100%;
+    }
+
+    .copy-right {
+        display: block;
+    }
+
+        .copy-right::before {
+            width: 100%;
+        }
+
+    .hotline-house {
+        font-size: 25px;
+    }
+
+    .view-house h1 span {
+        display: block;
+    }
+
+    .utilities-main .uti-main .item {
+        width: calc(45% - 4px);
+    }
+
+    .utilities-main .uti-main {
+        text-align: center;
+    }
+
+        .uti-main .item-name, .utilities-main .uti-main .description {
+            text-align: left;
+        }
+
+    .news-img {
+        width: 100%;
+    }
+
+        .news-img img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+            width: auto;
+        }
+
+    .news-content {
+        width: 100%;
+        height: auto !important;
+    }
+
+        .news-content .description.mCustomScrollbar.content {
+            height: 100px;
+        }
+
+    .news-box .item {
+        width: 50%;
+    }
+
+    .overview-param, .overview-img, .over-img, .over-content {
+        width: 100%;
+    }
+
+        .over-content .description.mCustomScrollbar.content, .over-content {
+            height: auto !important;
+        }
+
+        .overview-param .ov-img > img {
+            width: auto;
+        }
+
+    .title-all h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+}
+
+@media (max-width: 639px) {
+}
+
+@media (max-width: 600px) {
+    .overview-list li {
+        width: calc(50% - 4px);
+    }
+}
+
+@media (max-width: 520px) {
+    .pic-main .item {
+        width: 300px;
+    }
+
+    .utilities-main .uti-main .item {
+        width: 300px;
+    }
+
+    .apart-main .col-md-6 {
+        float: none;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .news-box .item {
+        width: 300px;
+        float: none;
+        margin: 0 auto 30px;
+        padding: 0;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 460px) {
+    .loca-list {
+        column-count: 1;
+        -moz-column-count: 1;
+    }
+
+    .wrap-send {
+        width: 100%;
+    }
+}
+
+@media (max-width: 419px) {
+}
+
+@media (max-width: 370px) {
+    .overview-list li {
+        width: 100%;
+    }
+}
+
+@media (max-width: 359px) {
+}
+
+@media (max-width: 319px) {
+}
