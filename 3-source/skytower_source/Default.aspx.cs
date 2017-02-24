@@ -12,8 +12,8 @@ public partial class _Default : System.Web.UI.Page
     {
         if (!IsPostBack)
         {
-            Page.Title = "HCQ-SkyTower";
-            var meta = new HtmlMeta() { Name = "description", Content = "HCQ-SkyTower" };
+            Page.Title = "HCQ-SunTower";
+            var meta = new HtmlMeta() { Name = "description", Content = "HCQ-SunTower" };
             Header.Controls.Add(meta);
         }
     }
